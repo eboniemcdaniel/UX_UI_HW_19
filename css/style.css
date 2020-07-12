@@ -1,0 +1,92 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo {
+  width: 23%;
+  padding: 1%;
+  text-align: center;
+}
+
+.logo img {
+  width: 35%;
+  height: auto;
+}
+
+nav {
+  width: 73%;
+  padding: 1%;
+  display: inline;
+}
+
+ul {
+  width: 50%;
+  margin-left: auto;
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+.heroimg {
+  height: 600px;
+  padding: 25px;
+}
+
+.heroimg img {
+  height: 400px;
+  width: auto;
+  padding: 25px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #373738;
+}
+
+footer ul li {
+  padding: 1%;
+}
+
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.flexContainer div {
+  width: 33%;
+  margin: 0 auto;
+  padding: 1;
+}
+
+.rose {
+  grid-area: rose;
+}
+
+.adult {
+  grid-area: adult;
+}
+.workGrid {
+  display: grid;
+  grid-template-areas: 'rose rose rose rose rose';
+  grid-template-areas: 'adult adult adult adult'
+}
+
+@media only screen and (max-width: 600px) {
+.flexContainer {
+  flex-direction: column;
+}
+.flexContainer div {
+  width: 100%;
+}
+}
